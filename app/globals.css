@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root{
+  --brand-primary: #E69A2B;
+  --brand-accent: #00A86B;
+  --bg: #F6F6F6;
+}
+
+html,body,#__next{height:100%;}
+body{background-color:var(--bg);color:#0b0b0b}
+
+.container-max{max-width:1200px;margin-inline:auto}
