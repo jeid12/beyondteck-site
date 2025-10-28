@@ -8,7 +8,7 @@ const teamMembers = [
     name: "IHIRWE IRENE SHINGIRO Arthur",
     position: "CEO & Founder",
     bio: "Visionary leader  in tech. Passionate about Rwanda's digital transformation.",
-    image: "/images/team/Ismael.JPG", // Replace with actual team photo
+    image: "/images/team/Arthur.jpeg", // Replace with actual team photo
     linkedin: "#",
     twitter: "#",
     github: "#",
