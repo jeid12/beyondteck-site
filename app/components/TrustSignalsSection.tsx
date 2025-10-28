@@ -109,16 +109,16 @@ export default function TrustSignalsSection() {
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-white">
               <div className="bg-white bg-opacity-20 rounded-lg px-6 py-3">
-                <p className="text-3xl font-bold">50+</p>
-                <p className="text-sm font-serif">Rwandan Clients</p>
+                <p className="text-3xl font-bold text-[#F69B19]">50+</p>
+                <p className="text-sm font-serif text-black">Rwandan Clients</p>
               </div>
               <div className="bg-white bg-opacity-20 rounded-lg px-6 py-3">
-                <p className="text-3xl font-bold">94%</p>
-                <p className="text-sm font-serif">Satisfaction Rate</p>
+                <p className="text-3xl font-bold text-[#F69B19]">94%</p>
+                <p className="text-sm font-serif text-black">Satisfaction Rate</p>
               </div>
               <div className="bg-white bg-opacity-20 rounded-lg px-6 py-3">
-                <p className="text-3xl font-bold">1+</p>
-                <p className="text-sm font-serif">Years Experience</p>
+                <p className="text-3xl font-bold text-[#F69B19]">1+</p>
+                <p className="text-sm font-serif text-black">Years Experience</p>
               </div>
             </div>
           </div>

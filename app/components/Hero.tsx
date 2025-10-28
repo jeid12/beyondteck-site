@@ -27,14 +27,14 @@ export default function HeroSection() {
             Transforming businesses through cutting-edge technology solutions. We bridge the gap between innovation and practical implementation.
           </p>
           <div className="mb-8 md:mb-10 w-full max-w-xl">
-            <div className="flex items-center bg-transparent border border-white rounded-full px-4 md:px-5 py-3 w-full min-h-[48px]">
+            {/* <div className="flex items-center bg-transparent border border-white rounded-full px-4 md:px-5 py-3 w-full min-h-[48px]">
               <FiSearch className="text-lg text-gray-400 mr-3 flex-shrink-0" />
               <input
                 type="text"
                 placeholder="Search here"
                 className="flex-grow bg-transparent outline-none text-white placeholder-gray-400 text-sm md:text-base"
               />
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-8 w-full sm:w-auto">
             <button 

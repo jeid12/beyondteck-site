@@ -5,10 +5,10 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 const teamMembers = [
   {
     id: 1,
-    name: "John Doe",
+    name: "IHIRWE IRENE SHINGIRO Arthur",
     position: "CEO & Founder",
-    bio: "Visionary leader with 10+ years in tech. Passionate about Rwanda's digital transformation.",
-    image: "/images/logoo.png", // Replace with actual team photo
+    bio: "Visionary leader  in tech. Passionate about Rwanda's digital transformation.",
+    image: "/images/team/Ismael.JPG", // Replace with actual team photo
     linkedin: "#",
     twitter: "#",
     github: "#",
@@ -16,10 +16,10 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Didier IMANIRAHARI",
     position: "CTO & Co-Founder",
     bio: "Full-stack expert specializing in scalable systems and cloud architecture.",
-    image: "/images/logoo.png", // Replace with actual team photo
+    image: "/images/team/Didier.jpeg", // Replace with actual team photo
     linkedin: "#",
     twitter: "#",
     github: "#",
@@ -27,21 +27,21 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "David Mugisha",
+    name: "Jean D Amour NIYOKWIZERA",
     position: "Lead Backend Developer",
-    bio: "Node.js specialist building robust APIs and database solutions for African businesses.",
-    image: "/images/logoo.png", // Replace with actual team photo
-    linkedin: "#",
-    twitter: "#",
-    github: "#",
-    expertise: ["Node.js", "PostgreSQL", "API Design"]
+    bio: "Python specialist building robust APIs and database solutions for African businesses.",
+    image: "/images/team/jean.JPG", // Replace with actual team photo
+    linkedin: "https://linkedin.com/in/brojeid",
+    twitter: "https://x.com/brojeid",
+    github: "https://github.com/jeid12",
+    expertise: ["Python", "PostgreSQL", "API Design"]
   },
   {
     id: 4,
-    name: "Sarah Uwase",
+    name: "Ismael MUKEZI",
     position: "Lead Frontend Developer",
     bio: "React expert creating beautiful, responsive interfaces that users love.",
-    image: "/images/logoo.png", // Replace with actual team photo
+    image: "/images/team/Ismael.JPG", // Replace with actual team photo
     linkedin: "#",
     twitter: "#",
     github: "#",
@@ -49,48 +49,16 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Patrick Niyomugabo",
-    position: "Mobile Developer",
-    bio: "Flutter & React Native developer bringing mobile app ideas to life.",
-    image: "/images/logoo.png", // Replace with actual team photo
+    name: "Brave INKINDI",
+    position: "AI Specialist    ",
+    bio: "Machine learning enthusiast driving innovation with AI solutions.",
+    image: "/images/team/Ismael.JPG", // Replace with actual team photo
     linkedin: "#",
     twitter: "#",
     github: "#",
     expertise: ["Flutter", "React Native", "iOS/Android"]
   },
-  {
-    id: 6,
-    name: "Grace Umutoni",
-    position: "UI/UX Designer",
-    bio: "Designer creating user-centered experiences with Figma and modern design principles.",
-    image: "/images/logoo.png", // Replace with actual team photo
-    linkedin: "#",
-    twitter: "#",
-    github: "#",
-    expertise: ["Figma", "User Research", "Prototyping"]
-  },
-  {
-    id: 7,
-    name: "Eric Habimana",
-    position: "QA Engineer",
-    bio: "Quality assurance specialist ensuring bug-free, high-performance applications.",
-    image: "/images/logoo.png", // Replace with actual team photo
-    linkedin: "#",
-    twitter: "#",
-    github: "#",
-    expertise: ["Automated Testing", "Cypress", "Quality Assurance"]
-  },
-  {
-    id: 8,
-    name: "Marie Ingabire",
-    position: "Project Manager",
-    bio: "Agile project manager keeping teams aligned and projects delivered on time.",
-    image: "/images/logoo.png", // Replace with actual team photo
-    linkedin: "#",
-    twitter: "#",
-    github: "#",
-    expertise: ["Agile", "Scrum", "Client Relations"]
-  },
+  
 ];
 
 export default function TeamSection() {
@@ -111,7 +79,7 @@ export default function TeamSection() {
         </p>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-5 gap-8">
           {teamMembers.map((member) => (
             <div
               key={member.id}
